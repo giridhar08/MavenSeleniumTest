@@ -27,6 +27,7 @@ public class BasePage {
 	public void clickImagesLink() {
 		//It should have a logic to click on images link
 		//And it should navigate to google images page
+		//extra
 	}
 	
 	public String getPageTitle(){
