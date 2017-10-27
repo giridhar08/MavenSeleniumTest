@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appURL" value="https://www.google.co.in/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.customerportal.tests.BasePageTest">
+        <parameter name="expectedPageTitle" value="Google"/>
+        <methods>
+          <include name="verifyHomePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.customerportal.tests.BasePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
